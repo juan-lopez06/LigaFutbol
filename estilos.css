@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+
+
+body {
+    font-family: "Oswald", sans-serif;
+    color: black;
+    background-image: url("img/image.png");
+    background-attachment: fixed;
+    font-size: 35px;
+    text-align: center;
+}
+
+main {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 20px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    transform: translatex(18%);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    color: rgb(7, 3, 3);
+    background-color: #6E7240;
+    border-radius: 40%;
+    width: 500px;
+    height: 165px;
+}
+
+header img {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    color: black;
+    position: fixed;
+    top: 40%;
+    left: 35%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+p {
+    background-color: aliceblue;
+    position: fixed;
+    left: 10%;
+    top: 90%;
+}
+
+nav a {
+    background-color: #A5A880;
+    text-decoration: none;
+    border-radius: 30%;
+    color: black;
+    padding: 10px;
+    margin: 50px;
+    margin-top: 50%;
+}
+
+nav a:hover {
+    color: rgb(3, 3, 129);
+}
